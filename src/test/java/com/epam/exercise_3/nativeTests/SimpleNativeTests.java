@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import static com.epam.exercise_3.enums.Contacts.PITTER_CHAILOVSKY;
 
-@Test(groups = "native")
+@Test(groups = {"native","nativefarm"})
 public class SimpleNativeTests extends Driver {
 
     private HomePage homePage;

@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-@Test(groups = "web")
+@Test(groups = {"web","webfarmIOS","webfarmAndroid"})
 public class SimpleWebTests extends Driver {
 
     private IanaOrg ianaOrg;
